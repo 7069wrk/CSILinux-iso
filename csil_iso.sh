@@ -29,7 +29,7 @@ sudo umount mnt
 sudo rmdir mnt
 
 # Extract the squashfs filesystem
-sudo unsquashfs carper/minimal.squashfs
+sudo unsquashfs casper/minimal.squashfs
 sudo mv squashfs-root edit
 
 # Chroot into the filesystem
